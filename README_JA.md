@@ -1,4 +1,4 @@
-![封面图](./resources/header.png)
+![カバー](./resources/header.png)
 
 <p align="center">
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/subframe7536/maple-font">
@@ -8,53 +8,53 @@
 </p>
 
 <p align="center">
-  <a href="#下载">下载</a> |
-  <a href="https://font.subf.dev">网站</a> |
+  <a href="#ダウンロード">ダウンロード</a> |
+  <a href="https://font.subf.dev">ウェブサイト</a> |
   <a href="./README.md">English</a> |
-  中文 |
-  <a href="./README_JA.md">日本語</a>
+  <a href="./README_CN.md">中文</a> |
+  日本語
 </p>
 
 # Maple Mono
 
-Maple Mono 是一款开源等宽字体，专注于优化您的编码体验。
+Maple Monoは、コーディングの流れをスムーズにすることに焦点を当てたオープンソースのモノスペースフォントです。
 
-我制作它是为了提升自己的工作效率，希望它也能对其他人有所帮助。
+私は自分の作業体験を向上させるためにこれを作成し、他の人にも役立つことを願っています。
 
-V7 是一个完全重制版本，提供了可变字体格式和字体工程源文件，重新设计了超过一半的字形，并提供更智能的连字。您可以[在这里](https://github.com/subframe7536/maple-font/tree/main)查看 V6 版本。
+V7は完全に再作成されたバージョンで、可変フォント形式とフォントプロジェクトのソースファイルを提供し、半数以上のグリフを再設計し、よりスマートなリガチャを提供します。V6は[こちら](https://github.com/subframe7536/maple-font/tree/main)で確認できます。
 
-## 特性
+## 特徴
 
-- ✨ 可变 - 无限的字体粗细，以及手工微调的斜体字形。
-- ☁️ 丝滑 - **圆角**，独特的 `@ $ % & Q ->` 字形，以及手写风格的斜体 `f i j k l x y`。
-- 💪 实用 - 大量的智能连字，详见 [`features/`](./source/features/README.md)。
-- 🎨 图标 - 提供 [Nerd-Font](https://github.com/ryanoasis/nerd-fonts) 嵌入的版本，添加图标支持。
-- 🔨 定制 - 自由开关或者构建 OpenType 字体特性，打造您专属的字体。
+- ✨ 可変 - 無限のフォントウェイトと細かく調整されたイタリックグリフ。
+- ☁️ スムーズ - 丸い角、`@ $ % & Q ->`の新しいグリフ、イタリックスタイルの筆記体`f i j k l x y`。
+- 💪 実用的 - 大量のスマートリガチャ、詳細は[`features/`](./source/features/README.md)を参照。
+- 🎨 アイコン - 一流の[Nerd-Font](https://github.com/ryanoasis/nerd-fonts)サポート、ターミナルをより鮮やかに。
+- 🔨 カスタマイズ - フォント機能を自由に有効または無効にして、自分だけのフォントを作成。
 
-### 简体中文、繁体中文和日文
+### 簡体字中国語、繁体字中国語、日本語
 
-CN 版本基于[资源圆体](https://github.com/CyanoHao/Resource-Han-Rounded)提供了完整的中文开发环境的字符集支持，包括简体中文、繁体中文和日文。同时，中英文 2:1 完美对齐的特性，使得本字体在多语言显示、Markdown 表格等场景可以做到整齐划一、美观舒适。但是中文的间距相比其他流行的中文字体更大，详情请参阅[发行版说明](https://github.com/subframe7536/maple-font/releases/tag/cn-base)和[这个议题](https://github.com/subframe7536/maple-font/issues/211)。
+CNバージョンは[Resource Han Rounded](https://github.com/CyanoHao/Resource-Han-Rounded)に基づいており、簡体字中国語、繁体字中国語、日本語の開発環境に完全な文字セットサポートを提供します。同時に、中国語と英語の2:1の完璧な整列の特性により、このフォントは多言語表示やMarkdownテーブルなどのシナリオで整然とした、統一された、美しく快適な外観を実現します。ただし、中国語の文字間隔は他の人気のある中国語フォントと比較して大きくなっています。詳細は[リリースノート](https://github.com/subframe7536/maple-font/releases/tag/cn-base)および[この問題](https://github.com/subframe7536/maple-font/issues/211)を参照してください。
 
 ![2-1.png](./resources/2-1.png)
 
-## 屏幕截图
+## スクリーンショット
 
 ![showcase.png](./resources/showcase.png)
 
-- 生成：[CodeImg](https://github.com/subframe7536/vscode-codeimg)
-- 主题：[Maple](https://github.com/subframe7536/vscode-theme-maple)
-- 配置：字体大小 16px，行高 1.8，默认字母间距
+- [CodeImg](https://github.com/subframe7536/vscode-codeimg)で撮影
+- テーマ：[Maple](https://github.com/subframe7536/vscode-theme-maple)
+- 設定：フォントサイズ16px、行の高さ1.8、デフォルトの文字間隔
 
-## 下载
+## ダウンロード
 
-您可以从 [Releases](https://github.com/subframe7536/maple-font/releases) 下载所有字体压缩包。
+すべてのフォントアーカイブは[リリース](https://github.com/subframe7536/maple-font/releases)からダウンロードできます。
 
 ### Scoop (Windows)
 
 ```sh
-# Add bucket
+# バケットを追加
 scoop bucket add nerd-fonts
-# Maple Mono (ttf 格式)
+# Maple Mono (ttf 形式)
 scoop install Maple-Mono
 # Maple Mono NF
 scoop install Maple-Mono-NF
@@ -63,16 +63,16 @@ scoop install Maple-Mono-NF-CN
 ```
 
 <details>
-  <summary>所有包 (点击展开)</summary>
+  <summary>すべてのパッケージ (クリックして展開)</summary>
 
   ```sh
-  # 添加 bucket
+  # バケットを追加
   scoop bucket add nerd-fonts
-  # Maple Mono (ttf 格式)
+  # Maple Mono (ttf形式)
   scoop install Maple-Mono
-  # Maple Mono (hinted ttf 格式)
+  # Maple Mono (hinted ttf形式)
   scoop install Maple-Mono-autohint
-  # Maple Mono (otf 格式)
+  # Maple Mono (otf形式)
   scoop install Maple-Mono-otf
   # Maple Mono NF
   scoop install Maple-Mono-NF
@@ -94,7 +94,7 @@ brew install --cask font-maple-mono-nf-cn
 ```
 
 <details>
-  <summary>所有包 (点击展开)</summary>
+  <summary>すべてのパッケージ (クリックして展開)</summary>
 
   ```sh
   # Maple Mono
@@ -120,9 +120,9 @@ brew install --cask font-maple-mono-nf-cn
 
 ### Arch Linux
 
-ArchLinuxCN仓库允许下载单个软件包的zip文件，而无需下载pkgbase中的所有软件包的zip文件，但AUR不允许。(如果您有好的解决方案，请联系Cyberczy(czysheep@gmail.com))
+ArchLinuxCN リポジトリでは、pkgbase 内のすべてのパッケージ zip ファイルをダウンロードせずに、単一のパッケージ zip ファイルをダウンロードできますが、AUR ではできません。(良い解決策がある場合は、Cyberczy(czysheep@gmail.com) までご連絡ください)
 
-#### ArchLinuxCN (推荐)
+#### ArchLinuxCN (推奨)
 
 ```sh
 # Maple Mono (Ligature TTF unhinted)
@@ -134,7 +134,7 @@ paru -S ttf-maplemono-nf-cn-unhinted
 ```
 
 <details>
-  <summary>所有包 (点击展开)</summary>
+  <summary>すべてのパッケージ (クリックして展開)</summary>
 
   ```sh
   # Maple Mono (Ligature Variable)
@@ -232,7 +232,7 @@ paru -S ttf-maplemono-nf-cn-unhinted
 
 </details>
 
-#### AUR (不推荐)
+#### AUR (非推奨)
 
 ```sh
 # Maple Mono (Ligature TTF unhinted)
@@ -244,7 +244,7 @@ paru -S maplemono-nf-cn-unhinted
 ```
 
 <details>
-  <summary>所有包 (点击展开)</summary>
+  <summary>すべてのパッケージ (クリックして展開)</summary>
 
   ```sh
   # Maple Mono (Ligature Variable)
@@ -356,7 +356,7 @@ fonts.packages = with pkgs; [
 ```
 
 <details>
-  <summary>所有包 (点击展开)</summary>
+  <summary>すべてのパッケージ (クリックして展開)</summary>
 
   ```nix
   fonts.packages = with pkgs; [
@@ -468,61 +468,61 @@ fonts.packages = with pkgs; [
 - [The Chinese Web Fonts Plan (中文网字计划)](https://chinese-font.netlify.app/zh-cn/fonts/maple-mono-cn/MapleMono-CN-Regular)
 - [ZeoSeven Fonts](https://fonts.zeoseven.com/items/442/)
 
-## 使用方法 & 特性配置
+## 使用方法 & 特性設定
 
-请参阅 [文档](./source/features/README_CN.md) 或者在 [这里](https://font.subf.dev/zh-cn/playground) 尝试。
+[ドキュメント](./source/features/README.md)を参照するか、[プレイグラウンド](https://font.subf.dev/en/playground)で試してください。
 
 > [!note]
-> 用于自定义构建的 Web 工具仍在开发中。
+> カスタムビルド用のWebツールは開発中です。
 
-## 命名说明
+## 命名に関するFAQ
 
-### 字体特性
+### 特徴
 
-- **Ligature**: 带有连字的默认版本 (`Maple Mono`)
-- **No-Ligature**: 没有连字的默认版本 (`Maple Mono NL`)
-- **Normal-Ligature**: 带有连字的 [`--normal` 预设](#预设) (`Maple Mono Normal`)
-- **Normal-No-Ligature**: 没有连字的 [`--normal` 预设](#预设) (`Maple Mono Normal NL`)
+- **Ligature**: リガチャ付きのデフォルトバージョン（`Maple Mono`）
+- **No-Ligature**: リガチャなしのデフォルトバージョン（`Maple Mono NL`）
+- **Normal-Ligature**: リガチャ付きの[`--normal`プリセット](#preset)（`Maple Mono Normal`）
+- **Normal-No-Ligature**: リガチャなしの[`--normal`プリセット](#preset)（`Maple Mono Normal NL`）
 
-### 字体格式和字符集
+### フォーマットとグリフセット
 
-- **Variable**: 最小版本，通过字体的可变轴改变字体粗细
-- **TTF**: 最小版本，ttf 格式 [推荐！]
-- **OTF**: 最小版本，otf 格式
-- **WOFF2**: 最小版本，woff2 格式，多用于网页加载
-- **NF**: 嵌入 Nerd-Font 的版本，为终端添加图标 (带有 `-NF` 后缀)
-- **CN**: 中文版本，嵌入中文和日文字形 (带有 `-CN` 后缀)
-- **NF-CN**: 完整版本，嵌入图标、中文和日文字形 (带有 `-NF-CN` 后缀)
+- **Variable**: 最小バージョン、可変でフォントウェイトをスムーズに変更
+- **TTF**: 最小バージョン、ttf形式 [推奨！]
+- **OTF**: 最小バージョン、otf形式
+- **WOFF2**: 最小バージョン、woff2形式、ウェブページでの小サイズ用
+- **NF**: Nerd-Fontパッチバージョン、ターミナルにアイコンを追加（`-NF`サフィックス付き）
+- **CN**: 中国語バージョン、中国語と日本語のグリフを埋め込む（`-CN`サフィックス付き）
+- **NF-CN**: フルバージョン、アイコン、中国語、日本語のグリフを埋め込む（`-NF-CN`サフィックス付き）
 
-### 字体微调
+### フォントヒント
 
-- **Hinted 字体** 用于低分辨率屏幕，以获得更好的渲染效果。根据我个人的经验，如果您的屏幕分辨率低于或等于 1080P，建议使用 "hinted 字体"。使用 "unhinted 字体" 会导致文本错位或粗细不均。
-  - 在这种情况下，您可以选择 `MapleMono-TTF-AutoHint` / `MapleMono-NF` / `MapleMono-NF-CN` 等。
-- **Unhinted 字体** 用于高分辨率屏幕（例如 MacBook）。使用 "hinted 字体" 会使您的文本模糊或看起来很奇怪。
-  - 在这种情况下，您可以选择 `MapleMono-OTF` / `MapleMono-TTF` / `MapleMono-NF-unhinted` / `MapleMono-NF-CN-unhinted` 等。
-- 为什么存在 `-AutoHint` 和 `-unhinted` 后缀？
-  - 为了向后兼容，我保留了原始命名方案。`-AutoHint` 仅用于 `TTF` 格式。
+- **Hintedフォント**は、低解像度の画面でより良いレンダリング効果を得るために使用されます。私の経験から、画面解像度が1080P以下または同等の場合、"hintedフォント"を使用することをお勧めします。"unhintedフォント"を使用すると、テキストのずれや厚さの不均一が発生します。
+  - この場合、`MapleMono-TTF-AutoHint` / `MapleMono-NF` / `MapleMono-NF-CN`などを選択できます。
+- **Unhintedフォント**は、高解像度の画面（例：MacBook）で使用されます。"hintedフォント"を使用すると、テキストがぼやけたり、奇妙に見えたりします。
+  - この場合、`MapleMono-OTF` / `MapleMono-TTF` / `MapleMono-NF-unhinted` / `MapleMono-NF-CN-unhinted`などを選択できます。
+- なぜ`-AutoHint`と`-unhinted`サフィックスが存在するのですか？
+  - 後方互換性のために、元の命名スキームを保持しています。`-AutoHint`は`TTF`形式にのみ使用されます。
 
 
-## 自定义构建
+## カスタムビルド
 
-[`config.json`](./config.json) 文件用于配置构建过程。查看 [schema](./source/schema.json) 或 [文档](./source/features/README.md) 了解更多详情。
+[`config.json`](./config.json)ファイルはビルドプロセスを構成するために使用されます。詳細については、[スキーマ](./source/schema.json)または[ドキュメント](./source/features/README.md)を参照してください。
 
-还有一些 [命令行选项](#构建脚本用法) 用于自定义构建过程。命令行选项的优先级高于 `config.json` 中的选项。
+ビルドプロセスをカスタマイズするための[コマンドラインオプション](#build-script-usage)もいくつかあります。CLIオプションは`config.json`のオプションよりも優先されます。
 
-### 使用 Github Actions
+### Github Actionsを使用する
 
-您可以使用 [Github Actions](https://github.com/subframe7536/maple-font/actions/workflows/custom.yml) 来构建字体。
+[Github Actions](https://github.com/subframe7536/maple-font/actions/workflows/custom.yml)を使用してフォントをビルドできます。
 
-1. Fork 仓库
-2. (可选) 更改 `config.json` 中的内容
-3. 转到 Actions 选项卡
-4. 点击左侧的 `Custom Build` 菜单项
-5. 点击 `Run workflow` 按钮并设置选项
-6. 等待构建完成
-7. 从 Releases 下载字体压缩包
+1. リポジトリをフォークする
+2. （オプション）`config.json`の内容を変更する
+3. Actionsタブに移動する
+4. 左側の`Custom Build`メニュー項目をクリックする
+5. オプションを設定して`Run workflow`ボタンをクリックする
+6. ビルドが完了するのを待つ
+7. リリースからフォントアーカイブをダウンロードする
 
-### 使用 Docker
+### Dockerを使用する
 
 ```shell
 git clone https://github.com/subframe7536/maple-font --depth 1 -b variable
@@ -530,9 +530,9 @@ docker build -t maple-font .
 docker run -v "$(pwd)/fonts:/app/fonts" -e BUILD_ARGS="--normal" maple-font
 ```
 
-### 本地构建
+### ローカルビルド
 
-克隆仓库并在您的本地机器上运行。确保您已安装 `python3` 和 `pip`
+リポジトリをクローンし、ローカルマシンで実行します。`python3`と`pip`がインストールされていることを確認してください。
 
 ```shell
 git clone https://github.com/subframe7536/maple-font --depth 1 -b variable
@@ -540,54 +540,50 @@ pip install -r requirements.txt
 python build.py
 ```
 
-- 对于 `Ubuntu` 或 `Debian`，可能还需要 `python-is-python3`
+- `Ubuntu`または`Debian`の場合、`python-is-python3`も必要な場合があります。
 
-如果您在安装依赖项时遇到问题，只需创建一个新的 GitHub Codespace 并在那里运行命令
+依存関係のインストールに問題がある場合は、新しいGitHub Codespaceを作成し、そこでコマンドを実行してください。
 
-#### 自定义 Nerd-Font
+#### カスタムNerd-Font
 
-对于自定义 `font-patcher` 参数，需要安装 `font-forge`（可能还需要 `python3-fontforge`）。
+カスタム`font-patcher`引数の場合、`font-forge`（おそらく`python3-fontforge`も）が必要です。
 
-也许您还应该更改 [config.json](./config.json) 中的 `"nerd_font.extra_args"`
+おそらく[config.json](./config.json)の`"nerd_font.extra_args"`も変更する必要があります。
 
-默认参数：`-l --careful --outputdir dir`
-- 如果 `"nerd_font.mono"` 设置为 `true`，则增加 `--mono`
+デフォルトの引数：`-l --careful --outputdir dir`
+- `"nerd_font.mono"`が`true`の場合、`--mono`が追加されます。
 
-#### 预设
+#### プリセット
 
-运行 `build.py` 时添加 `--normal` 参数，让字形不那么独特~~奇怪~~，就像 `JetBrains Mono` 一样（除了 `0` 的中间是斜线而不是点）。
+`build.py`を`--normal`フラグで実行し、フォントがあまり「意見的」ではなく、`JetBrains Mono`のように見えるようにします（斜線付きのゼロを含む）。
 
-#### 字体特性强制开启
+#### フォント機能のフリーズ
 
-有三种选项（[为什么](https://github.com/subframe7536/maple-font/issues/233#issuecomment-2410170270)）：
+フォント機能のフリーズには3つのオプションがあります（[なぜ](https://github.com/subframe7536/maple-font/issues/233#issuecomment-2410170270)）：
 
-1. `enable`: 强制启用这些特性，而无需在字体特性配置中设置 `cvXX` / `ssXX` / `zero`，就像默认连字一样
-2. `disable`: 删除 `cvXX` / `ssXX` / `zero` 中的特性，即使您手动启用它，也不在生效
-3. `ignore`: 什么也不做
+1. `enable`: フォント機能設定で`cvXX` / `ssXX` / `zero`を設定せずに、デフォルトのグリフ/リガチャとして機能を強制的に有効にします。
+2. `disable`: `cvXX` / `ssXX` / `zero`の機能を削除し、手動で有効にしても効果がありません。
+3. `ignore`: 何もしません。
 
-#### 加载自定义特性文件
+#### カスタム機能ファイルの読み込み
 
-运行 `build.py` 时添加 `--apply-fea-file` 参数，会读取 [`source/features/{regular,italic}.fea`](./source/features) 的特性文件并应用到可变字体中。您可以修改它来更改所有特性，例如删除 `calt` 中的一些连字。
+`build.py`を`--apply-fea-file`フラグで実行すると、[`source/features/{regular,italic}.fea`](./source/features)から機能ファイルが読み込まれ、可変フォントに適用されます。これを変更してすべての機能を変更できます。例：`calt`の一部のリガチャを削除します。
 
-### 中文版本
+### 中国語バージョン
 
-默认情况下不会生成中文字体，运行 `python build.py` 时添加 `--cn` 参数，中文基字（约 130 MB）将从 GitHub 下载。
+CNバージョンはデフォルトで無効になっています。`python build.py`を`--cn`フラグで実行すると、CNベースフォント（約130 MB）がGitHubからダウンロードされます。
 
-如果您想从可变字体（约 35 MB）构建中文基字，请在 [config.json](./config.json) 中设置 `"cn.use_static_base_font": false` 并且**耐心等待**，可变字体静态化将花费大约 20-30 分钟。
+可変（約35 MB）からCNベースフォントをビルドしたい場合は、[config.json](./config.json)で`"cn.use_static_base_font": false`を設定し、**忍耐強く待ってください**。インスタンス化には約20〜30分かかります。
 
-#### 缩小中文字体的间距
+#### CNグリフの間隔を狭くする
 
-如果您觉得中文字符的间距**过大**，有一个**实验性**的构建选项 `cn.narrow` 或 参数 `--cn-narrow` 可以缩小间距。您可以在 [#249](https://github.com/subframe7536/maple-font/issues/249) 中查看效果并跟踪问题。
+CNグリフの間隔が**非常に大きい**と感じる場合、間隔を狭くする**実験的**なビルドオプション`cn.narrow`またはフラグ`--cn-narrow`があります。効果を確認し、[#249](https://github.com/subframe7536/maple-font/issues/249)で問題を追跡できます。
 
-#### GitHub 镜像
+#### GitHubミラー
 
-构建脚本将自动从 GitHub 下载所需的资源。如果您在下载时遇到问题，请在 [config.json](./config.json) 中设置 `github_mirror` 或将 `$GITHUB` 设置为您的环境变量。（目标 URL 为 `https://<github_mirror>/<user>/<repo>/releases/download/<tag>/<file>`），或者直接下载目标 `.zip` 文件并将其放在与 `build.py` 相同的目录中。
+ビルドスクリプトは必要なアセットをGitHubから自動的にダウンロードします。ダウンロードに問題がある場合は、[config.json](./config.json)で`github_mirror`を設定するか、環境変数に`$GITHUB`を設定してください。（ターゲットURLは`https://<github_mirror>/<user>/<repo>/releases/download/<tag>/<file>`になります）、またはターゲットの`.zip`ファイルをダウンロードし、`build.py`と同じディレクトリに配置してください。
 
-#### 繁體中文支持
-
-通過開啟 `cv99`，標點符號會居中，詳情見 [#150](https://github.com/subframe7536/maple-font/issues/150)
-
-### 构建脚本用法
+### ビルドスクリプトの使用法
 
 ```
 usage: build.py [-h] [-v] [-d] [--debug] [-n] [--feat FEAT] [--apply-fea-file]
@@ -598,42 +594,34 @@ usage: build.py [-h] [-v] [-d] [--debug] [-n] [--feat FEAT] [--apply-fea-file]
 ✨ Builder and optimizer for Maple Mono
 
 options:
-  -h, --help        显示此帮助信息并退出
-  -v, --version     显示程序的版本号并退出
-  -d, --dry         输出配置并退出
-  --debug           在字体名称中添加 `Debug` 后缀，跳过优化
+  -h, --help        このヘルプメッセージを表示して終了
+  -v, --version     プログラムのバージョン番号を表示して終了
+  -d, --dry         設定を出力して終了
+  --debug           ファミリ名に`Debug`サフィックスを追加し、最適化をスキップ
 
 Feature Options:
-  -n, --normal      使用 normal 预设，就像带有斜杠 0 的 `JetBrains Mono`
-  --feat FEAT       强制启用字体特性，用 `,` 分隔 (例如 `--feat
-                    zero,cv01,ss07,ss08`)。对可变字体无效
-  --apply-fea-file  从 `source/features/{regular,italic}.fea` 加载特性文件到
-                    可变字体
-  --hinted          在 NF / CN / NF-CN 中使用 hinted 字体作为基础字体 (默认)
-  --no-hinted       在 NF / CN / NF-CN 中使用 unhinted 字体作为基础字体
-  --liga            保留所有连字 (默认)
-  --no-liga         删除所有连字
-  --cn-narrow       减小中文字形间距 (实验性的)
+  -n, --normal      `JetBrains Mono`のように斜線付きゼロを持つ通常のプリセットを使用
+  --feat FEAT       フォント機能をフリーズし、`,`で区切る（例：`--feat zero,cv01,ss07,ss08`）。可変フォーマットには効果がありません
+  --apply-fea-file  `source/features/{regular,italic}.fea`から機能ファイルを読み込み、可変フォントに適用
+  --hinted          NF / CN / NF-CNでヒント付きフォントをベースフォントとして使用（デフォルト）
+  --no-hinted       NF / CN / NF-CNでヒントなしフォントをベースフォントとして使用
+  --liga            すべてのリガチャを保持（デフォルト）
+  --no-liga         すべてのリガチャを削除
+  --cn-narrow       CN文字を狭くする（実験的）
 
 Build Options:
-  --nerd-font       构建 Nerd-Font 版本 (默认)
-  --no-nerd-font    不构建 Nerd-Font 版本
-  --cn              构建中文版本
-  --no-cn           不构建中文版本 (默认)
-  --cn-both         同时构建 `Maple Mono CN` 和 `Maple Mono NF CN`。必须启用
-                    Nerd-Font 版本
-  --ttf-only        仅构建 TTF 格式
-  --cache           重用 TTF、OTF 和 Woff2 格式的字体缓存
-  --cn-rebuild      重新静态化中文基字
-  --archive         构建带有配置和许可的字体压缩包。如果带有 `--cache`
-                    标志，则仅打包 Nerd-Font 和 CN 格式
+  --nerd-font       Nerd-Fontバージョンをビルド（デフォルト）
+  --no-nerd-font    Nerd-Fontバージョンをビルドしない
+  --cn              中国語バージョンをビルド
+  --no-cn           中国語バージョンをビルドしない（デフォルト）
+  --cn-both         `Maple Mono CN`と`Maple Mono NF CN`の両方をビルド。Nerd-Fontバージョンが有効である必要があります
+  --ttf-only        TTF形式のみをビルド
+  --cache           TTF、OTF、Woff2形式のフォントキャッシュを再利用
+  --cn-rebuild      CNベースフォントを再インスタンス化
+  --archive         設定とライセンスを含むフォントアーカイブをビルド。`--cache`フラグがある場合、Nerd-FontとCN形式のみをアーカイブ
 ```
 
-## 我个人在用的其他中文字体资源
-
-[cn-resource](https://github.com/subframe7536/maple-font/tree/other-resources/cn-resource)
-
-## 鸣谢
+## クレジット
 
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono)
 - [Roboto Mono](https://github.com/googlefonts/RobotoMono)
@@ -647,14 +635,18 @@ Build Options:
 - [Monolisa](https://www.monolisa.dev/)
 - [Recursive](https://www.recursive.design/)
 
-## 赞助
+## スポンサー
 
-如果这个字体对您有所帮助，可以通过 [爱发电](https://afdian.com/a/subframe7536) 赞助我
+このフォントが役に立った場合は、気軽にコーヒーを買ってください。
 
-## 点星
+<a href="https://www.buymeacoffee.com/subframe753"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=subframe753&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+または[Afdian](https://afdian.com/a/subframe7536)を通じてスポンサーしてください。
+
+## スター履歴
 
 [![Star History Chart](https://api.star-history.com/svg?repos=subframe7536/maple-font&type=Date)](https://www.star-history.com/#subframe7536/maple-font&Date)
 
-## 许可
+## ライセンス
 
 SIL Open Font License 1.1
